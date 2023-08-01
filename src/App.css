@@ -1,0 +1,211 @@
+body {
+   color: rgb(226, 203, 51);
+   font-style: normal;
+   font-size: 40px;
+   font-weight: bolder;
+   text-align: center;
+   text-shadow: 2px 2px 4px rgba(239, 98, 98, 0.5);
+}
+
+img {
+   width: 600px;
+   height: 500px;
+   text-align: center;
+}
+
+
+.search {
+   margin-left: 800px;
+   width: 200px;
+   height: 30px;
+   border: none;
+   border-radius: 8px;
+   outline: none;
+}
+
+.container-fluid {
+   background-color: rgb(8, 80, 93);
+   color: rgb(113, 194, 238);
+   font-size: large;
+   font-style: normal;
+   width: 500px;
+   height: 700px;
+   margin-top: 2px;
+   border: none;
+   padding: 30px;
+   border-radius: 10px;
+   margin-left: 40%;
+}
+
+input,
+textarea {
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   border: none;
+   outline: none;
+}
+
+
+
+textarea {
+   height: 10%;
+}
+
+.tablerow {
+   color: rgb(15, 14, 14);
+   font-size: medium;
+   font-style: normal;
+}
+
+.tablebody {
+   font-size: medium;
+   font-style: normal;
+
+}
+
+.modal {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal.open {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.modal-content {
+   background-color: #578db1;
+   color: rgb(12, 31, 139);
+   font-size: medium;
+   font-style: normal;
+   padding: 20px;
+   border-radius: 5px;
+   max-width: 400px;
+}
+
+.modal h2 {
+   margin-bottom: 10px;
+}
+
+.modal input {
+   width: 100%;
+   margin-bottom: 15px;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+
+.updatebtn {
+   background: #a6f0a6;
+   width: 50px;
+   margin-left: 45%;
+   margin-top: -2%;
+   border-radius: 5px;
+}
+
+.clearbtn {
+   background: tomato;
+   width: 50px;
+   margin-left: 60%;
+   margin-top: -9%;
+   border-radius: 5px;
+
+}
+
+.contact-card {
+   background: rgb(18, 168, 156);
+   color: rgb(47, 15, 187);
+   font-size: larger;
+   font-weight: bold;
+   width: 500px;
+   border: 1px solid rgb(76, 205, 162);
+   border-radius: 5px;
+   text-align: center;
+   position: fixed;
+   top: 50%;
+   left: 85%;
+   transform: translate(-50%, -50%);
+   z-index: 9999;
+}
+
+#clsbtn {
+   background: rgb(44, 28, 150);
+   border-radius: 4px;
+   color: rgb(247, 240, 240);
+}
+
+.heading {
+   color: rgb(48, 42, 237);
+   font-size: 40px;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   background: linear-gradient(45deg, #ff8a00, #e52e71);
+}
+
+Form {
+   width: 250px;
+}
+
+#button {
+   width: 40px;
+}
+
+thead th {
+   background-color: #578db1;
+   color: black;
+}
+
+.custom-form {
+   border: 2px solid black;
+   background: #033352;
+   padding: 40px 40px 40px 40px;
+   width: 500px;
+   text-align: center;
+   color: rgb(102, 242, 239);
+   font-style: normal;
+   font-size: 20px;
+   margin-left: 400px;
+}
+
+.center {
+   text-align: center;
+   color: rgb(240, 248, 248);
+   font-style: normal;
+   margin-bottom: 10px;
+}
+
+.custom-button {
+   border-radius: 5px;
+   margin-right: 10px;
+   margin-top: 10px;
+   font-size: large;
+}
+
+.custom-button1 {
+   border-radius: 5px;
+   margin-right: 10px;
+   margin-top: 10px;
+}
+
+.contacthead {
+   color: #e46e07;
+   text-align: center;
+   position: fixed;
+   top: 25%;
+   left: 85%;
+   transform: translate(-50%, -50%);
+   z-index: 9999;
+}
+.notfound {
+   color: yellow;
+   position: relative;
+}

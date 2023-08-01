@@ -1,0 +1,76 @@
+{
+  "contacts": [
+    {
+      "name": "George",
+      "DOB": "1983-02-02",
+      "address": "Colorado",
+      "email": "Grg@gmail.com",
+      "phone": "7207172444",
+      "created_date": "2000-10-04",
+      "id": 1
+    },
+    {
+      "name": "Kaira",
+      "DOB": "2001-10-12",
+      "address": "Texas",
+      "email": "karn@hotmail.com",
+      "phone": "9094568967",
+      "created_date": "2017-10-05",
+      "id": 2
+    },
+    {
+      "name": "Sofiya",
+      "DOB": "2005-07-10",
+      "address": "Florida",
+      "email": "soff@gmail.com",
+      "phone": "3456787854",
+      "created_date": "2020-06-11",
+      "id": 3
+    },
+    {
+      "name": "Williams",
+      "DOB": "1995-05-11",
+      "address": "California",
+      "email": "Will@hotmail.com",
+      "phone": "7684531234",
+      "created_date": "2003-07-10",
+      "id": 4
+    },
+    {
+      "name": "Aria",
+      "DOB": "2019-10-10",
+      "address": "Mexico",
+      "email": "Arrr@gmail.com",
+      "phone": "7654567812",
+      "created_date": "2022-10-02",
+      "id": 5
+    },
+    {
+      "name": "pooja",
+      "DOB": "2001-11-10",
+      "address": "India",
+      "email": "pooja@yahoo.com",
+      "phone": "9876545611",
+      "created_date": "2005-12-10",
+      "id": 6
+    },
+    {
+      "name": "Karin",
+      "DOB": "1999-12-23",
+      "address": "Virginia",
+      "email": "Karin@gmail.com",
+      "phone": "8986655123",
+      "created_date": "2010-12-19",
+      "id": 7
+    },
+    {
+      "name": "Meghan",
+      "DOB": "1988-09-16",
+      "address": "Kansas",
+      "email": "Meg@hotmail.com",
+      "phone": "9876543567",
+      "created_date": "1995-12-30",
+      "id": 8
+    }
+  ]
+}
