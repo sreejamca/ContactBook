@@ -15,7 +15,7 @@ const ContactList = () => {
     const handleSearch = (foundContact) => {
         setFoundContact(foundContact);
       };
-    const URL_ENDPOINT = "http://localhost:3000/contacts"
+    const URL_ENDPOINT = "https://contactbookapp1.netlify.app/contacts"
     const navigate = useNavigate();
     const [contacts, setContacts] = useState([])
     const [selectedContact, setSelectedContact] = useState(null);
