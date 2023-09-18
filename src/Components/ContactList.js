@@ -67,7 +67,9 @@ const ContactList = () => {
                     </tr>
                 </thead>
                 <tbody className="tablebody">
-                    {contacts.map((contact, index) => (
+                    {
+
+                    Array.isArray(contacts)?contacts.map((contact, index) => (
                         <tr key={index}>
 
                             <td>{contact.name}</td>
@@ -79,7 +81,7 @@ const ContactList = () => {
                             <td><button onClick={() => deleteContactItem(contact.id)}><BsTrash /></button><button onClick={() => handleEditClick(contact)}><BsPencil /></button></td>
                         </tr>
 
-                    ))}
+                    )):''}
 
                 </tbody>
             </Table>
