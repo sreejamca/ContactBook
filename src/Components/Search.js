@@ -16,7 +16,7 @@ const Search = ({ searchContacts, onSearch }) => {
   const [contacts, setContacts] = useState([]);
   const [foundContact, setFoundContact] = useState('');
   const getContactList = () => {
-    axios.get('http://localhost:3000/contacts')
+    axios.get('https://contactbookapp1.netlify.app/contacts')
       .then(res => { setContacts(res.data); console.log(res.data); })
       .catch(error => console.log(error))
   }
