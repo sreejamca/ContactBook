@@ -7,7 +7,7 @@ import { BsPencil } from 'react-icons/bs';
 //Function to update a contact.
 const UpdatedContactList = ({ isOpen, onClose, contact, onUpdate }) => {
 
-    const URL_ENDPOINT = 'http://localhost:3000/contacts';
+    const URL_ENDPOINT = 'https://contactbookapp1.netlify.app/contacts';
     const [updatedContactName, setUpdatedContactName] = useState(contact.name)
     const [updatedContactDOB, setUpdatedContactDOB] = useState(contact.DOB)
     const [updatedContactAddress, setUpdatedContactAddress] = useState(contact.address)

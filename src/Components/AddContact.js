@@ -105,7 +105,7 @@ const AddContact = () => {
     }
 
 // Getting a data from db.json and then adding a new contact to it using "POST" method
-    fetch('http://localhost:3000/contacts', {
+    fetch('https://contactbookapp1.netlify.app/contacts', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

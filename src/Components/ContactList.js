@@ -36,7 +36,7 @@ const ContactList = () => {
     };
 
     const getContactList = () => {
-        axios.get('https://lcontactbookapp1.netlify.app/contacts')
+        axios.get('https://contactbookapp1.netlify.app/contacts')
             .then(res => setContacts(res.data))
             .catch(error => console.log(error))
     }
